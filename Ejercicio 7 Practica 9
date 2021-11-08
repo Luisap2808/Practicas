@@ -1,0 +1,27 @@
+#include <stdio.h>
+
+int main(){
+int num1;
+int num2;
+int multiplicacion1;
+int multiplicacion2;
+int i;
+
+printf("Escriba un numero\n");
+scanf("%d", &num1);
+printf("Escribe otro numero\n");
+scanf("%d", &num2);
+
+printf("\n");
+
+for(i=1;i<=10;i++){
+
+    multiplicacion1=i*num1;
+    printf("%d\n",multiplicacion1);
+
+    multiplicacion2=i*num2;
+    printf("%d\n",multiplicacion2);
+
+}
+
+}
