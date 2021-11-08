@@ -1,0 +1,70 @@
+#include <stdio.h>
+int main(){
+int i,j;
+
+//Inciso A
+printf("A\n");
+
+//Algoritmo usado para realizar la figura del inciso A
+for (i=1;i<=10;i++){
+
+  for (j=1;j<=i;j++){
+      printf("*");
+}
+printf("\n");
+}
+//Aqui se pone un Enter para darle mejor formnato
+printf("\n");
+
+//Inciso B
+printf("B\n");
+
+//Algoritmo usado para realizar la figura del inciso B
+for(i=1;i<=10;i++){
+ 
+   for(j=10;j>=i;j--){
+      printf("*");
+}
+printf("\n");
+}
+//Aqui se pone un Enter para darle mejor formnato
+printf("\n");
+
+//Inciso C
+printf("C\n");
+
+//Algoritmo usado para realizar la figura del inciso C
+for(i = 1; i <= 10; i++){  
+  
+  for(j = 1; j < i; j++){ 
+      printf(" ");
+  }
+
+     for(j = 10; j >= i; j--){
+ printf("*");
+     }
+  printf("\n");
+}  
+//Aqui se pone un Enter para darle mejor formnato
+printf("\n");
+
+
+//Inciso D
+printf("D\n");
+
+//Algoritmo usado para realizar la figura del inciso A
+for(i = 1; i <= 10; i++){  
+    
+for(j=1; j<=i; j++){ 
+printf("");
+}
+for(j = 1; j < i; j++){ 
+    printf("*"); 
+}
+  printf("\n");
+}  
+
+
+
+
+}
