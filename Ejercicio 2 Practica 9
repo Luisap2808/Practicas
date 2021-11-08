@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main(){
+int X,Y,i,resultado;
+
+i=1;
+resultado=1;
+
+printf("Ingrese el numero a multiplicar");
+scanf("%d",&X);
+
+printf("A qué potencia se va a multiplicar");
+scanf("%d",&Y);
+
+while (i<=Y);
+resultado = X*X;
+++i;
+
+printf("%d\n", resultado);
+
+return 0;
+}
