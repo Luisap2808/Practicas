@@ -49,7 +49,7 @@ for(i = 1; i <= 10; i++){
 printf("\n");
 
 
-//Inciso D
+//Inciso D NO ME SALIO
 printf("D\n");
 
 //Algoritmo usado para realizar la figura del inciso A
