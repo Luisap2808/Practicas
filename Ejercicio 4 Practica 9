@@ -1,0 +1,30 @@
+#include <stdio.h>
+
+int num=10;
+int main(){
+
+    while(num<=100){
+       printf("%d\n",num); 
+       num+=10;
+    }
+printf("\n");
+
+printf("For\n");
+
+for (num=10;num<=100;num+=10) {
+    printf("%d\n",num);
+    
+}
+printf("\n");
+
+printf("Do while\n");
+
+num =10;
+
+do{
+    printf("%d\n",num);
+    num+=10;
+
+}while(num<=100);
+
+}
