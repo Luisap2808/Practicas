@@ -1,0 +1,39 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+int main(){
+float promedio;
+int cos[12];
+int suma;
+int i;
+for (i=0;i<11;i++){
+    cos[i]=rand()/10000;
+    suma=suma+cos[i];
+}
+
+
+promedio = suma/12;
+//promedio = (cos[0]+cos[1]+cos[2]+cos[3]+cos[4]+cos[5]+cos[6]+cos[7]+cos[8]+cos[9]+cos[10]+cos[11])/12;
+
+printf("El promedio es %f\n\n", promedio);
+
+int mayorCose =0, contador = 0;
+for (i=0;i<=11;i++){
+   if (promedio > cos [i])
+      printf ("En el mes %i hubo más producción que el promedio \n fueron %i toneladas.\n",i+1,cos [i]);
+   if (mayorCose < cos [i]){
+      mayorCose = cos [i];
+      contador = i;
+   }
+}
+printf ("el mes de mayor producción fue el %i y se produjeron %i toneladas\n", contador, mayorCose);
+
+
+
+
+
+
+
+
+}
