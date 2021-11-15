@@ -1,0 +1,64 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+int main(){
+
+time_t t;
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+srand(time(NULL));
+printf("EJERCICIO [1-3]\n");
+float n[8]= {rand(),rand(),rand(),rand(),rand(),rand(),rand(),rand()};
+
+printf("%f\n",n[7]);
+
+printf("\n");printf("\n");
+
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+printf("EJERCICIO [4-5]\n");
+int arreglo [5];
+int valor;
+ printf("Asigne un valor\n");
+ scanf("%i",&valor);
+
+arreglo[4]= valor;
+
+printf("Valor de el elemnento 4 %d\n", arreglo[4]);
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+printf("EJERCICIO [6-8]\n");
+int cien[100];
+for(int i=0;i<99;i++){cien[i]=rand()/100000000;}
+
+int contador;
+int suma;
+int *ArregloCont = cien;
+
+
+
+for(contador=0;contador<=98;contador++){
+
+suma = ArregloCont + *ArregloCont++;
+ArregloCont++;
+}
+printf("La suma es %i", suma);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
